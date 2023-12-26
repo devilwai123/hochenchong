@@ -11,8 +11,8 @@
 name: Build Redmi AX6
 
 on: 
-  release: master
-    #types: [published]
+  release:
+    types: [published]
 
   #push:
     #branches:
@@ -23,7 +23,7 @@ on:
      - cron: 0 8 1,15 * *
 
   # 手动触发，https://learn.microsoft.com/zh-cn/training/modules/github-actions-automate-tasks/2c-configure-github-actions-workflow
-  workflow_dispatch:
+  workflow_dispatch: https://learn.microsoft.com/zh-cn/training/modules/github-actions-automate-tasks/2c-configure-github-actions-workflow
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
