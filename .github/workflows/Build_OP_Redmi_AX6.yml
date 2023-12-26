@@ -10,9 +10,7 @@
 
 name: Build Redmi AX6
 
-on: 
-  #release:
-    #types: [published]
+on:
   push:
     branches:
       - master
