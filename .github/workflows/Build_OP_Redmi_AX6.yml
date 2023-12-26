@@ -12,7 +12,7 @@ name: Build Redmi AX6
 
 on: 
   release: master
-    types: [published]
+    #types: [published]
 
   #push:
     #branches:
